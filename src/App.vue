@@ -18,6 +18,7 @@
     <div class="w-[800px] mx-auto border rounded-xl bg-gray-800 px-6">
         <timeline-component />
     </div>
+    <footer-component />
 </template>
 
 <script>
