@@ -1,6 +1,6 @@
 <template>
     <div v-if="showProfile" class="mt-6 gap-2 flex flex-col px-10 pb-10 pt-4 text-white bg-gray-800 rounded-xl border border-white">
-        <div class="flex gap-4 mx-auto">
+        <div class="flex gap-4">
         <span class="pi pi-user mt-1" />
         <span>Nihad Jusovic</span>
       </div>
