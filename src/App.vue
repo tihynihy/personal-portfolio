@@ -5,7 +5,7 @@
     <navbar /> 
   </div>
   <!-- Body -->
-  <div class="flex flex-col items-center justify-center mt-10 border border-white">
+  <div class="flex flex-col items-center justify-center mt-10  border-white">
 
     <avatar />
     <div class="mt-10">
