@@ -6,6 +6,7 @@ import ParticlesComponent from './components/ParticlesComponent.vue';
 import Particles from 'vue3-particles'
 import AboutComponent from './components/AboutComponent.vue';
 import TerminalComponent from './components/TerminalComponent.vue';
+import TypeWriteComponent from './components/TypeWriteComponent.vue';
 import App from './App.vue'
 
 const app = createApp(App)
@@ -15,6 +16,7 @@ app.component('avatar', AvatarComponent);
 app.component('particles-component', ParticlesComponent);
 app.component('about-component', AboutComponent); 
 app.component('terminal-component',TerminalComponent);
+app.component('typewrite-effect', TypeWriteComponent);
   app.use(Particles)
   app.mount('#app')
 

@@ -55,7 +55,7 @@
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: 'none',
@@ -76,7 +76,7 @@
             value: 0.5,
           },
           shape: {
-            type: 'circle',
+            type: 'square',
           },
           size: {
             random: true,

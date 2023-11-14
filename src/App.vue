@@ -8,9 +8,9 @@
   <div class="flex flex-col items-center justify-center mt-10 border border-white">
 
     <avatar />
-    <!-- <about-component /> -->
     <div class="mt-10">
-    <terminal-component />
+    <typewrite-effect />
+    <about-component />
 </div>
   </div>
  </template>
