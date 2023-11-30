@@ -2,11 +2,7 @@
     <div class="bg-gray-800">
         <ol class="relative border-s border-gray-200">
             <li v-for="(item, index) in portfolioData" :key="index"
-<<<<<<< HEAD
                 class="ms-4 px-4 py-6 rounded-xl hover:bg-sky-700 text-white hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-=======
-                class="my-10 ms-4 px-4 py-4 rounded-xl hover:cursor-pointer hover:bg-sky-700 text-white hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
->>>>>>> 58d8dd32f6983da683f3cf43975440b2bf384296
                 <div
                     class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white">
                 </div>
