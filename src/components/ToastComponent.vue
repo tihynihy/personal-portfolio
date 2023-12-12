@@ -1,5 +1,5 @@
 <template>
-    <div class="border absolute w-[350px] rounded-md flex backdrop-blur-xl bg-white/30 py-6 mt-[77px] flex-col">
+    <div v-if="vanishMessage" class="border absolute w-[350px] rounded-md flex backdrop-blur-xl bg-white/30 py-6 mt-[77px] flex-col">
         <div class="flex mx-4 w-full">
 
             <div class="rounded-full overflow-hidden bg-red-400 w-5 h-5 mr-2">
@@ -16,11 +16,14 @@
         </div>
     </div>
 </template>
-<script>
-export default {
+<script setup>
+import { ref } from 'vue';
 
+const isVisible = ref(true);
+
+const vanishMessage = (duration) => {
+    setTimeout(() => {
+        isVisible.value = false;
+    }, duration);
 }
 </script>
-<style lang="">
-    
-</style>
