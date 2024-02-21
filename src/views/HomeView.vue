@@ -1,22 +1,4 @@
 <template>
-    <!-- <div class="flex">
-    <div class="mr-10 flex flex-col text-white backdrop-blur-sm bg-white/10 px-20 py-10 rounded-2xl">
-    
-        <h1 class="font-bold">Hello, I am Nihad</h1>
-        <br>
-        <div class="w-[300px] h-[300px] font-semibold">
-            I'm a recent graduate at RMIT University, majored in Computer Science.
-            My areas of interest include problem-solving, cloud infrastructure, machine learning, and IoT.
-            With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
-        </div>
-    </div>
-    <div class="bg-white ml-10 w-[300px] h-[300px] border border-green-400 object-contain">
-      
-        <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"  
-             alt="profile image">
-    </div>
-</div> -->
-
 <div class="flex">
   <!-- Left side div for text -->
   <div class="w-1/2 p-4">
@@ -30,8 +12,6 @@
         <p class="text-2xl font-semibold py-2">Sources:</p>
         <div class="flex gap-4 py-2">
             <!-- Icon links -->
-            <!-- <a href="https://github.com/tihynihy"><img src="../assets/github.svg" alt="github" class="w-10 h-10"></a> -->
-            <!-- <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/"><img src="../assets/linkedin.svg" alt="linkedin" class="w-10 h-10"></a> -->
             <button class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 hover:bg-white duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150">
               <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/">
                 <img src="../assets/linkedin.svg" alt="Portfolio Image" class="h-10 w-10">
