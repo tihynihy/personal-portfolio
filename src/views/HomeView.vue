@@ -2,7 +2,7 @@
   <div class="flex w-[1000px] relative">
     <!-- Left side div for text -->
     <div class="w-1/2 p-4">
-      <div class="backdrop-blur-sm bg-gray-100/60 rounded-2xl h-300 w-[450px] p-8 relative z-10">
+      <div class="backdrop-blur-sm bg-white/40 text-white rounded-2xl h-300 w-[450px] p-8 relative z-10">
         <h1 class="text-2xl font-semibold py-2">Hello, I am Nihad</h1>
         <!-- Your text content goes here -->
         <p class="text-lg">
@@ -29,6 +29,9 @@
             </a>
           </button>
         </div>
+        <button class="border">
+          <img src="../assets/download.svg" alt="Download">
+        </button>
       </div>
     </div>
     <div class="px-10"></div>
