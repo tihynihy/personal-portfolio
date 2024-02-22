@@ -45,3 +45,8 @@
     </div>
   </div>
 </template>
+
+
+<!-- Add Download CV Button 
+SVG -> CV needs to be modified 
+Also repair the overaly -->
