@@ -1,5 +1,5 @@
 <template>
-<div class="flex">
+<div class="flex w-[1000px]">
   <!-- Left side div for text -->
   <div class="w-1/2 p-4">
     <div class="backdrop-blur-sm bg-gray-100/60 rounded-2xl h-300 w-[450px] p-8">
@@ -32,13 +32,11 @@
   </div>
   <div class="px-10"></div>
   <!-- Right side div for image -->
-  <div class="w-1/2 p-4">
-    <div class="bg-gray-300 h-300 w-[300px]">
-      <!-- Your image goes here -->
-      <!-- <img src="your-image-url.jpg" alt="Image" class="h-full w-full object-cover"> -->
-      <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"  
-             alt="profile image" class="h-100 w-100 object-contain">
-    </div>
+  <div class="">
+    <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"  
+             alt="profile image" class="h-[500px] w-[450px] object-cover rounded-2xl">
   </div>
-</div>
+ 
+  </div>
+
 </template>
