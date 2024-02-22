@@ -9,7 +9,7 @@
             I'm a recent graduate at RMIT University, majored in Computer Science.
             My areas of interest include problem-solving, cloud infrastructure, machine learning, and IoT.
             With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.</p>
-        <p class="text-2xl font-semibold py-2">Sources:</p>
+        <p class="text-2xl font-semibold pt-2">Sources:</p>
         <div class="flex gap-4 py-2">
             <!-- Icon links -->
             <button class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 hover:bg-white duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150">
