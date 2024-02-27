@@ -1,22 +1,4 @@
 <template>
-    <!-- <div class="flex">
-    <div class="mr-10 flex flex-col text-white backdrop-blur-sm bg-white/10 px-20 py-10 rounded-2xl">
-    
-        <h1 class="font-bold">Hello, I am Nihad</h1>
-        <br>
-        <div class="w-[300px] h-[300px] font-semibold">
-            I'm a recent graduate at RMIT University, majored in Computer Science.
-            My areas of interest include problem-solving, cloud infrastructure, machine learning, and IoT.
-            With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
-        </div>
-    </div>
-    <div class="bg-white ml-10 w-[300px] h-[300px] border border-green-400 object-contain">
-      
-        <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"  
-             alt="profile image">
-    </div>
-</div> -->
-
 <div class="flex">
   <!-- Left side div for text -->
   <div class="w-1/2 p-4">
