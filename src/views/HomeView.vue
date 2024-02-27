@@ -2,7 +2,7 @@
 <div class="flex">
   <!-- Left side div for text -->
   <div class="w-1/2 p-4">
-    <div class="backdrop-blur-sm bg-sky-100/30 text-white rounded-2xl h-300 w-[450px] p-8">
+    <div class="backdrop-blur-sm bg-white/20 text-white rounded-2xl h-300 w-[450px] p-8">
         <h1 class="text-2xl font-semibold py-2">Hello, I am Nihad</h1>
         <!-- Your text content goes here -->
         <p class="text-lg">
@@ -39,7 +39,7 @@
     <div class="px-10"></div>
     <!-- Right side div for image -->
     <div class="w-[500px]">
-      <div class="absolute ml-40 w-80 h-80 backdrop-blur-sm bg-sky-100/30 p-2 mt-56 rounded-2xl"></div>
+      <div class="absolute ml-40 w-80 h-80 backdrop-blur-sm bg-white/20 p-2 mt-56 rounded-2xl"></div>
       <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" 
            alt="profile image" 
            class="h-80 w-80 mt-10 object-cover absolute rounded-2xl">
