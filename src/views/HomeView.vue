@@ -10,8 +10,10 @@
           My areas of interest include problem-solving, cloud infrastructure, machine learning, and IoT.
           With a detail-oriented focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
         </p>
-        <p class="text-2xl font-semibold pt-2">Sources:</p>
-        <div class="flex gap-4 py-2">
+        <p class="text-2xl font-semibold mt-6">
+          Sources:
+        </p>
+        <div class="flex py-2">
           <!-- Icon links -->
           <button class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150">
             <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/">
@@ -29,28 +31,18 @@
             </a>
           </button>
         </div>
-        <button class="border bg-white mt-4 font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
+        <button class="border bg-white mt-2 font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
         Download CV
-        <img src="../assets/download.svg" 
-             alt="Here"
-             class="ml-2 w-6 h-6">
-        </button>
+      </button>
       </div>
     </div>
     <div class="px-10"></div>
     <!-- Right side div for image -->
     <div class="w-[500px]">
-      <div class="absolute ml-40 w-80 h-80 backdrop-blur-sm bg-sky-100/30 p-2 mt-56 rounded-2xl">
-        behind
-    </div>
+      <div class="absolute ml-40 w-80 h-80 backdrop-blur-sm bg-sky-100/30 p-2 mt-56 rounded-2xl"></div>
       <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" 
            alt="profile image" 
            class="h-80 w-80 mt-10 object-cover absolute rounded-2xl">
   </div>
   </div>
 </template>
-
-
-<!-- Add Download CV Button 
-SVG -> CV needs to be modified 
-Also repair the overaly -->
