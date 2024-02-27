@@ -29,20 +29,23 @@
             </a>
           </button>
         </div>
-        <button class="border">
-          <img src="../assets/download.svg" alt="Download">
+        <button class="border bg-black mt-4 font-bold hover:-translate-y-1 text-white hover:text-black hover:scale-110 hover:bg-white duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
+        Download CV
+        <img src="../assets/download.svg" 
+             alt="Here"
+             class="ml-2 w-6 h-6">
         </button>
       </div>
     </div>
     <div class="px-10"></div>
+    <div class="text-white flex">hello</div>
     <!-- Right side div for image -->
-    <div class="absolute top-4 right-0 h-full w-[500px]">
-      <!-- Image -->
-      <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" alt="profile image" class="h-80 w-72 object-cover rounded-2xl">
+    <!-- <div class="absolute top-4 right-1 h-full border w-[500px]">
+      <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" alt="profile image" class="h-80 w-72 object-cover ml-10 mt-40 rounded-2xl">
       <div class="absolute bottom-6 right-0 w-72 h-80 bg-gray-500 p-2 rounded-2xl">
         behind
-      </div>
     </div>
+  </div> -->
   </div>
 </template>
 
