@@ -14,6 +14,7 @@ import TypeWriteComponent from './components/TypeWriteComponent.vue';
 import ToastComponent from './components/ToastComponent.vue';
 import HomeViewComponent from './views/HomeView.vue';
 import BaseView from './views/BaseView.vue';
+import AboutView from './views/AboutView.vue';
 import App from './App.vue'
 
 const app = createApp(App)
@@ -30,6 +31,7 @@ app.component('contact-view', ContactView);
 app.component('toast-component', ToastComponent);
 app.component('homeview-component', HomeViewComponent);
 app.component('baseview-component', BaseView);
+app.component('aboutview-component', AboutView);
   app.use(Particles)
   app.use(router)
   app.mount('#app')

@@ -1,12 +1,22 @@
-// router.js
+
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
-  // Define your routes here
+
   {
     path: '/',
-    component: () => import('./views/BaseView.vue'), // Example: Lazy-loaded component
+    component: () => import('./views/BaseView.vue'), 
     name: 'home',
+  },
+  {
+    path: '/roadmap',
+    component: () => import('./views/RoadmapView.vue'), 
+    name: 'roadmap',
+  },
+  {
+    path: '/about',
+    component: () => import('./views/AboutView.vue'), 
+    name: 'about',
   },
 ];
 
