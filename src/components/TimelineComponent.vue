@@ -1,57 +1,41 @@
 <template>
-    <div class="bg-gray-800">
-        <ol class="relative border-s border-gray-200">
-            <li v-for="(item, index) in portfolioData" :key="index"
-                class="ms-4 px-4 py-6 rounded-xl hover:bg-sky-700 text-white hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+    <ol class="items-center sm:flex">
+        <li v-for="(item, index) in items" :key="index" class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
                 <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white">
-                </div>
-                <time class="mb-1 text-sm font-normal leading-none">{{ item.date }}</time>
-                <h3 class="text-lg font-semibold">{{ item.title }}</h3>
-                <p class="mb-4 text-base font-normal">{{ item.description }}</p>
-                <a :href="item.link"
-                    class="inline-flex items-center px-4 py-2 text-sm font-medium text-blue-600 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none">
-                    Learn more
-                    <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                     </svg>
-                </a>
-            </li>
-        </ol>
-    </div>
+                </div>
+                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div class="mt-3 sm:pe-8">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ item.title }}</h3>
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{
+                    item.releaseDate }}</time>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">{{ item.description }}</p>
+            </div>
+        </li>
+    </ol>
 </template>
-  
+
 <script>
 export default {
     data() {
         return {
-            portfolioData: [
-                {
-                    date: 'February 2022',
-                    title: 'Application UI code in Tailwind CSS',
-                    description:
-                        'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.',
-                    link: '#',
-                },
-                {
-                    date: 'February 2022',
-                    title: 'Application UI code in Tailwind CSS',
-                    description:
-                        'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.',
-                    link: '#',
-                },
-                {
-                    date: 'February 2022',
-                    title: 'Application UI code in Tailwind CSS',
-                    description:
-                        'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.',
-                    link: '#',
-                },
+            items: [
+                { title: 'Flowbite Library v1.0.0', releaseDate: 'Released on December 2, 2021', description: 'Get started with dozens of web components and interactive elements.' },
+                { title: 'Flowbite Library v1.2.0', releaseDate: 'Released on December 23, 2021', description: 'Get started with dozens of web components and interactive elements.' },
+                { title: 'Flowbite Library v1.3.0', releaseDate: 'Released on January 5, 2022', description: 'Get started with dozens of web components and interactive elements.' },
+                { title: 'Flowbite Library v1.3.0', releaseDate: 'Released on January 5, 2022', description: 'Get started with dozens of web components and interactive elements.' },
+                { title: 'Flowbite Library v1.3.0', releaseDate: 'Released on January 5, 2022', description: 'Get started with dozens of web components and interactive elements.' },
+                { title: 'Flowbite Library v1.3.0', releaseDate: 'Released on January 5, 2022', description: 'Get started with dozens of web components and interactive elements.' },
+
             ],
         };
     },
 };
 </script>
-  
