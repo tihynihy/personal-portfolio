@@ -45,4 +45,5 @@
            class="h-80 w-80 mt-10 object-cover absolute rounded-2xl">
   </div>
   </div>
+  <footer-component />
 </template>
