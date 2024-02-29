@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import router from './router';
 import './style.css'
 import NavBarComponent from './components/NavBarComponent.vue';
 import AvatarComponent from './components/AvatarComponent.vue';
@@ -12,6 +13,7 @@ import ContactView from './views/ContactView.vue';
 import TypeWriteComponent from './components/TypeWriteComponent.vue';
 import ToastComponent from './components/ToastComponent.vue';
 import HomeViewComponent from './views/HomeView.vue';
+import BaseView from './views/BaseView.vue';
 import App from './App.vue'
 
 const app = createApp(App)
@@ -27,6 +29,8 @@ app.component('typewrite-effect', TypeWriteComponent);
 app.component('contact-view', ContactView);
 app.component('toast-component', ToastComponent);
 app.component('homeview-component', HomeViewComponent);
+app.component('baseview-component', BaseView);
   app.use(Particles)
+  app.use(router)
   app.mount('#app')
 
