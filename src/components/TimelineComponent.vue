@@ -27,6 +27,8 @@ export default {
                 { title: 'University Basics', releaseDate: 'December 2, 2021', description: 'Started my journey in coding with the basics.' },
                 { title: 'Hackathons', releaseDate: 'December 23, 2021', description: 'Winner of the BEST 2022 Hackathon in Sarajevo | BEST Mostar Hackathon 2021.' },
                 { title: 'Frontend Development', releaseDate: 'January 5, 2022', description: 'Worked full time as a Vue.js developer | Figma UI/UX development' },
+                { title: 'Frontend Development', releaseDate: 'January 5, 2022', description: 'Worked full time as a Vue.js developer | Figma UI/UX development' },
+
             ],
         };
     },
