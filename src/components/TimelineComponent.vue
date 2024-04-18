@@ -1,7 +1,7 @@
 <template>
     <ol class="items-center sm:flex">
         <li v-for="(item, index) in items" :key="index" class="hover:cursor-pointer p-4 px-24 rounded-lg duration-300 hover:scale-125 hover:backdrop-blur-sm hover:bg-white/20 hover:bg-gray-500 relative mb-6 sm:mb-0">
-            <div class="flex items-center">
+            <div class="flex mr-2 items-center">
                 <div
                     class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                    <!-- svg placeholder space -->
