@@ -20,6 +20,8 @@ const routes = [
   },
 ];
 
+//check vs
+
 const router = createRouter({
   history: createWebHistory(),
   routes,
