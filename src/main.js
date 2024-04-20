@@ -32,6 +32,9 @@ app.component('toast-component', ToastComponent);
 app.component('homeview-component', HomeViewComponent);
 app.component('baseview-component', BaseView);
 app.component('aboutview-component', AboutView);
+
+
+//also include particles
   app.use(Particles)
   app.use(router)
   app.mount('#app')
