@@ -12,7 +12,6 @@ import FooterComponent from './components/FooterComponent.vue';
 import ContactView from './views/ContactView.vue';
 import TypeWriteComponent from './components/TypeWriteComponent.vue';
 import ToastComponent from './components/ToastComponent.vue';
-import HomeViewComponent from './views/HomeView.vue';
 import BaseView from './views/BaseView.vue';
 import AboutView from './views/AboutView.vue';
 import App from './App.vue'
