@@ -80,14 +80,6 @@ span {
   font-weight: bold;
 }
 
-.line1 {
-  color: #9CD9F0;
-  -webkit-animation: type .5s 1s steps(20, end) forwards;
-  -moz-animation: type .5s 1s steps(20, end) forwards;
-  -o-animation: type .5s 1s steps(20, end) forwards;
-  animation: type .5s 1s steps(20, end) forwards;
-}
-
 .cursor1 {
   -webkit-animation: blink 1s 2s 2 forwards;
   -moz-animation: blink 1s 2s 2 forwards;
