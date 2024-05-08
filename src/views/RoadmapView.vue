@@ -11,7 +11,7 @@
     </div>
   </template>
 
-  <!-- correct this timeline width and icon -->
+  
 
   
   
