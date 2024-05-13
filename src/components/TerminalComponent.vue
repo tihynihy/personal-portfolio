@@ -7,15 +7,10 @@
     <div class="fakeScreen">
         <p class="line1">$ tihynihy<span class="cursor1">_</span></p>
         <p class="line2">Hello My name is Nihad.<span class="cursor2">_</span></p>
-        <p class="line3">[!smile] Welcome to my CV <span class="cursor3">_</span></p>
         <p class="line4">Check around! :)<span class="cursor4">_</span></p>
     </div>
 </template>
 <style scoped>
-body {
-  background-color: #272727;
-  padding: 10px;
-}
 
 .fakeButtons {
   height: 10px;
