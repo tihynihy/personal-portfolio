@@ -1,10 +1,9 @@
 <template>
-<div class="flex">
-  <!-- Left side div for text -->
-  <div class="w-1/2 p-4">
-    <div class="backdrop-blur-sm bg-white/20 text-white rounded-2xl h-300 w-[450px] p-8">
+  <div class="flex flex-col md:flex-row items-center justify-center p-4">
+    <!-- Left side div for text -->
+    <div class="w-full md:w-1/2 p-4">
+      <div class="backdrop-blur-sm bg-white/20 text-white rounded-2xl h-auto md:h-300 md:w-[450px] p-8 mx-auto">
         <h1 class="text-2xl font-semibold py-2">Hello, I am Nihad</h1>
-        <!-- Your text content goes here -->
         <p class="text-lg">
           I'm a recent graduate at RMIT University, majored in Computer Science.
           My areas of interest include problem-solving, cloud infrastructure, machine learning, and IoT.
@@ -13,7 +12,7 @@
         <p class="text-2xl font-semibold mt-6">
           Sources:
         </p>
-        <div class="flex py-2">
+        <div class="flex py-2 space-x-4">
           <!-- Icon links -->
           <button class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150">
             <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/">
@@ -32,20 +31,21 @@
           </button>
         </div>
         <button class="border bg-white mt-2 font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
-        Download CV
-      </button>
+          Show CV
+        </button>
       </div>
     </div>
-    <div class="px-10"></div>
     <!-- Right side div for image -->
-    <div class="w-[500px]">
-      <div class="absolute ml-40 w-80 h-80 backdrop-blur-sm bg-white/20 p-2 mt-56 rounded-2xl"></div>
-      <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" 
-           alt="profile image" 
-           class="h-80 w-80 mt-10 object-cover absolute rounded-2xl">
+    <div class="w-full md:w-auto flex justify-center mt-10 md:mt-0">
+      <div class="relative">
+        <div class="absolute w-80 h-80 backdrop-blur-sm bg-white/20 p-2 rounded-2xl"></div>
+        <img src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg" 
+             alt="profile image" 
+             class="h-80 w-80 object-cover rounded-2xl relative">
+      </div>
+    </div>
   </div>
-  </div>
-  <div class="items-center justify-center flex">
-<footer-component />
+  <div class="flex justify-center mt-8">
+    <footer-component />
   </div>
 </template>

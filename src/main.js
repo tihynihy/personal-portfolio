@@ -13,6 +13,7 @@ import ContactView from './views/ContactView.vue';
 import TypeWriteComponent from './components/TypeWriteComponent.vue';
 import ToastComponent from './components/ToastComponent.vue';
 import BaseView from './views/BaseView.vue';
+import HomeViewComponent from './views/HomeView.vue';
 import AboutView from './views/AboutView.vue';
 import App from './App.vue'
 
