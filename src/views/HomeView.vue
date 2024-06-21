@@ -2,7 +2,7 @@
   <div class="flex flex-col md:flex-row items-center justify-center">
     <!-- Left side div for text -->
     <div class="w-full md:w-1/2 p-4">
-      <div class="backdrop-blur-sm bg-white/20 text-white rounded-2xl h-auto md:h-300 w-full md:w-[450px] p-8 mx-auto">
+      <div class="backdrop-blur-sm bg-white/20 text-white rounded-2xl h-auto md:h-300 w-full md:w-[450px] p-8 mx-auto relative">
         <h1 class="text-2xl font-semibold py-2">Hello, I am Nihad</h1>
         <p class="text-lg">
           I'm a recent graduate at RMIT University, majored in Computer Science.
@@ -30,9 +30,18 @@
             </a>
           </button>
         </div>
-        <button class="border bg-white mt-2 font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
+        <button @click="isOpen = true" class="border bg-white mt-2 font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex">
           Show CV
         </button>
+        <teleport to="body">
+          <div v-if="isOpen" class="fixed top-0 left-0 bg-black bg-opacity-70 w-full h-full flex justify-center items-center z-50" @click.self="isOpen = false">
+            <div class="bg-white p-6 rounded-lg max-w-md w-full">
+              <h2 class="text-xl font-semibold mb-4">Curriculum Vitae</h2>
+              <p>Content of the CV goes here...</p>
+              <button @click="isOpen = false" class="mt-4 p-2 bg-blue-500 text-white rounded">Close</button>
+            </div>
+          </div>
+        </teleport>
       </div>
     </div>
     <div class="w-full md:w-auto flex justify-center md:justify-start px-10 mt-10 md:mt-0">
@@ -49,3 +58,9 @@
     <footer-component />
   </div>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+const isOpen = ref(false);
+</script>
