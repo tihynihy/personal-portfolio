@@ -1,13 +1,13 @@
 {
-  "name": "meal-app",
+  "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "git@github.com:tihynihy/personal-portfolio.git",
   "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy":"sh deploy.sh"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",

@@ -1,8 +1,6 @@
-
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
-
   {
     path: '/',
     component: () => import('./views/BaseView.vue'), 
@@ -20,10 +18,8 @@ const routes = [
   },
 ];
 
-//check vs
-
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/personal-portfolio/'),  // Set base path here
   routes,
 });
 
