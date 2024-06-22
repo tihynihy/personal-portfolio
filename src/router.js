@@ -19,7 +19,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/personal-portfolio/'),  // Set base path here
+  history: createWebHistory('/personal-portfolio/'), 
   routes,
 });
 
