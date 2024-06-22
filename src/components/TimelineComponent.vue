@@ -7,9 +7,10 @@
     >
       <div class="flex mr-2 items-center">
         <div
-          class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0"
-          v-html="item.svg"
-        ></div>
+          class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-white sm:ring-8 dark:ring-gray-900 shrink-0"
+        >
+          <img :src="item.img" alt="icon" class="w-full h-full object-cover rounded-full"/>
+        </div>
         <div
           class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"
         ></div>
@@ -42,10 +43,11 @@ export default {
             "title" in item &&
             "releaseDate" in item &&
             "description" in item &&
-            "svg" in item
+            "img" in item
         );
       },
     },
   },
 };
 </script>
+

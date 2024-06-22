@@ -12,9 +12,9 @@ const routes = [
     name: 'roadmap',
   },
   {
-    path: '/about',
-    component: () => import('./views/AboutView.vue'), 
-    name: 'about',
+    path: '/tech',
+    component: () => import('./views/TechView.vue'), 
+    name: 'tech',
   },
 ];
 
