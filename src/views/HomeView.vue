@@ -75,20 +75,20 @@
     >
       <!-- Right side div for image -->
       <div class="relative">
-        <div
+        <!-- <div
           class="absolute w-80 h-80 backdrop-blur-sm bg-white/20 p-2 rounded-2xl"
-        ></div>
+        ></div> -->
         <img
           src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"
           alt="profile image"
-          class="h-80 w-80 object-cover rounded-2xl relative"
+          class="h-80 w-80 object-cover rounded-2xl relative hidden md:block"
         />
       </div>
     </div>
   </div>
-  <div class="flex items-center justify-center mt-8">
+  <!-- <div class="flex items-center justify-center">
     <footer-component />
-  </div>
+  </div> -->
 </template>
 
 <script setup>

@@ -5,7 +5,7 @@
       <div class="mt-32">
      
        </div>
-       <footer-component />
+       <!-- <footer-component /> -->
     </div>
   </template>
   
