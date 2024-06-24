@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row items-center justify-center">
+  <div class="flex flex-col md:flex-row items-center justify-center mt-[5%]">
     <!-- Left side div for text -->
     <div class="w-full md:w-1/2 p-4">
       <div
