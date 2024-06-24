@@ -1,8 +1,8 @@
 <template>
-    <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4">
         <div v-for="(item, index) in items" :key="index"
-            class="hover:cursor-pointer p-4 px-24 rounded-lg duration-300 hover:scale-125 hover:backdrop-blur-sm hover:bg-white/20 hover:bg-gray-500 relative mb-6 sm:mb-0">
-            <img :src="item.img" alt="" class="mb-2 w-full h-32 object-cover" />
+            class="hover:cursor-pointer p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg duration-300 hover:scale-125 hover:backdrop-blur-sm hover:bg-white/20 hover:bg-gray-500 relative mb-6 sm:mb-0">
+            <img :src="item.img" alt="" class="mb-2 w-full object-contain h-32 sm:h-32 md:h-32 lg:h-32" />
             <p>{{ item.text }}</p>
         </div>
     </div>
@@ -20,10 +20,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-img {
-    max-height: 100px;
-    object-fit: cover;
-}
-</style>
