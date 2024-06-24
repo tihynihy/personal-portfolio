@@ -2,8 +2,8 @@
   <particles-component />
     <div class="items-center justify-center flex flex-col">
       <navbar-component />
-      <div class="mt-32">
-        <div class="px-40 mt-[5%]">
+      <div class="mt-[5%]">
+        <div class="px-40 mt-[10%]">
           <div>
             <TimelineComponent :items="items" />
           </div>
