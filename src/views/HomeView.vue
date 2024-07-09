@@ -1,8 +1,10 @@
 <template>
   <div class="flex flex-col md:flex-row items-center justify-center mt-[5%]">
-    <img src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y" 
-         alt="avatar image" 
-         class="rounded-full h-40 w-40 block mb-[5%] md:hidden">
+    <img
+      src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y"
+      alt="avatar image"
+      class="rounded-full h-40 w-40 block mb-[5%] md:hidden"
+    />
     <!-- Left side div for text -->
     <div class="w-full md:w-1/2 p-4">
       <div
@@ -10,11 +12,13 @@
       >
         <h1 class="text-2xl font-semibold py-2">Hello, I am Nihad</h1>
         <p class="text-lg">
-          I'm a recent graduate at RMIT University, majored in Computer Science.
-          My areas of interest include problem-solving, cloud infrastructure,
-          machine learning, and IoT. With a detail-oriented focus, I enjoy
-          creating simple but effective solutions to improve application
-          performance, ease of maintenance, and user experience.
+          I'm a recent graduate at
+          <a href="https://www.ius.edu.ba/en" target="_blank">IUS University</a
+          >, majored in Software Engineering. My areas of interest include
+          problem-solving, full-stack, mobile development, and IoT. With a
+          detail-oriented focus, I enjoy creating simple but effective solutions
+          to improve application performance, ease of maintenance, and user
+          experience.
         </p>
         <p class="text-2xl font-semibold mt-6">Sources:</p>
         <div class="flex space-x-4 py-2">
@@ -22,8 +26,10 @@
           <button
             class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl py-2 transition ease-in-out delay-150"
           >
-            <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/" 
-               target="_blank">
+            <a
+              href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/"
+              target="_blank"
+            >
               <img
                 src="../assets/linkedin.svg"
                 alt="LinkedIn"
@@ -34,8 +40,7 @@
           <button
             class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl py-2 transition ease-in-out delay-150"
           >
-            <a href="https://github.com/tihynihy" 
-               target="_blank">
+            <a href="https://github.com/tihynihy" target="_blank">
               <img src="../assets/github.svg" alt="GitHub" class="h-10 w-10" />
             </a>
           </button>
@@ -60,12 +65,18 @@
             class="fixed top-0 left-0 bg-black bg-opacity-70 w-full h-full flex justify-center items-center z-50"
             @click.self="isOpen = false"
           >
-            <div class="bg-white p-6 rounded-lg max-w-md w-full">
-              <h2 class="text-xl font-semibold mb-4">Curriculum Vitae</h2>
-              <p>Content of the CV goes here...</p>
+            <div class="cv-container">
+              <h2 class="text-xl font-semibold mb-4">
+                Curriculum Vitae Details
+              </h2>
+              <iframe
+                src="/personal-portfolio/CV-Nihad-Jusovic.pdf"
+                frameborder="0"
+                class="cv-frame"
+              ></iframe>
               <button
                 @click="isOpen = false"
-                class="mt-4 p-2 bg-blue-500 text-white rounded"
+                class="mt-[10%] md:mt-[5%] p-2 bg-white font-bold hover:-translate-y-1 text-black hover:scale-110 duration-300 px-4 py-3 transition ease-in-out delay-150 rounded-3xl flex"
               >
                 Close
               </button>
@@ -80,9 +91,6 @@
     >
       <!-- Right side div for image -->
       <div class="relative">
-        <!-- <div
-          class="absolute w-80 h-80 backdrop-blur-sm bg-white/20 p-2 rounded-2xl"
-        ></div> -->
         <img
           src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y"
           alt="profile image"
@@ -98,3 +106,34 @@ import { ref } from "vue";
 
 const isOpen = ref(false);
 </script>
+
+<style scoped>
+.cv-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  max-width: 1200px;
+  max-height: 800px;
+}
+
+.cv-frame {
+  width: 100%;
+  height: calc(100% - 60px);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .cv-container {
+    width: 95%;
+    height: 80%;
+  }
+
+  .cv-frame {
+    height: calc(
+      100% - 60px
+    );
+  }
+}
+</style>
