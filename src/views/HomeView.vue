@@ -1,5 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row items-center justify-center mt-[5%]">
+    <img src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y" 
+         alt="avatar image" 
+         class="rounded-full h-40 w-40 block mb-[5%] md:hidden">
     <!-- Left side div for text -->
     <div class="w-full md:w-1/2 p-4">
       <div
