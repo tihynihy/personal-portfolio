@@ -2,59 +2,38 @@
   <particles-component />
   <div class="items-center justify-center flex flex-col">
     <navbar-component />
-    <div class="mt-32">
-      <div class="px-40 mt-[5%]">
-        <div>
-          <TimelineComponent :items="items" />
-        </div>
+    <div class="px-[5%] mt-[10%] md:mt-[5%]">
+      <div>
+        <GridComponent :items="items" />
       </div>
     </div>
   </div>
 </template>
 <script>
-import TimelineComponent from "../components/TimelineComponent.vue";
+import GridComponent from '../components/GridComponent.vue';
 
 export default {
+  name: 'App',
   components: {
-    TimelineComponent,
+    GridComponent
   },
   data() {
     return {
       items: [
-        {
-          title: "University Basics",
-          releaseDate: "December 2, 2021",
-          description: "Started my journey in coding with the basics.",
-          svg: `
-            <svg class="w-4 h-4 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 20a10 10 0 100-20 10 10 0 000 20zm1-15v4H7v2h4v4h2v-4h4V9h-4V5h-2z"/>
-            </svg>
-          `,
-        },
-        {
-          title: "Hackathons",
-          releaseDate: "December 23, 2021",
-          description:
-            "Winner of the BEST 2022 Hackathon in Sarajevo | BEST Mostar Hackathon 2021.",
-          svg: `
-            <svg class="w-4 h-4 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 20a10 10 0 100-20 10 10 0 000 20zm1-15v4H7v2h4v4h2v-4h4V9h-4V5h-2z"/>
-            </svg>
-          `,
-        },
-        {
-          title: "Frontend Development",
-          releaseDate: "January 5, 2022",
-          description:
-            "Worked full time as a Vue.js developer | Figma UI/UX development",
-          svg: `
-            <svg class="w-4 h-4 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 20a10 10 0 100-20 10 10 0 000 20zm1-15v4H7v2h4v4h2v-4h4V9h-4V5h-2z"/>
-            </svg>
-          `,
-        },
-      ],
+        { text: '', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png' },
+        { text: '', img: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/java/java-original-wordmark.svg' },
+        { text: '', img: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/flutter/flutter-original.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/postgresql/postgresql-original-wordmark.svg' },
+        { text: '', img: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/tailwindcss/tailwindcss-plain.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/linux/linux-original.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/vitejs/vitejs-original.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/livewire/livewire-original.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/figma/figma-original.svg' },
+        { text: '', img: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' },
+        { text: '', img: 'https://github.com/devicons/devicon/raw/master/icons/postman/postman-original.svg' },
+      ]
     };
-  },
-};
+  }
+}
 </script>
