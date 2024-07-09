@@ -75,20 +75,14 @@
     >
       <!-- Right side div for image -->
       <div class="relative">
-        <!-- <div
-          class="absolute w-80 h-80 backdrop-blur-sm bg-white/20 p-2 rounded-2xl"
-        ></div> -->
         <img
-          src="https://us.images.westend61.de/0000474903pw/portrait-of-young-man-in-front-of-grey-background-RHF000408.jpg"
+          src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y"
           alt="profile image"
           class="h-80 w-80 object-cover rounded-2xl relative hidden md:block"
         />
       </div>
     </div>
   </div>
-  <!-- <div class="flex items-center justify-center">
-    <footer-component />
-  </div> -->
 </template>
 
 <script setup>

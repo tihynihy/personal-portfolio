@@ -1,7 +1,6 @@
 <template>
   <particles-component />
   <div class="items-center justify-center flex flex-col">
-    <navbar-component />
     <div class="px-[5%] mt-[10%] md:mt-[5%]">
       <div>
         <GridComponent :items="items" />
