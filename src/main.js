@@ -16,6 +16,7 @@ import BaseView from "./views/BaseView.vue";
 import HomeViewComponent from "./views/HomeView.vue";
 import TechView from "./views/TechView.vue";
 import GridComponent from "./components/GridComponent.vue";
+// import PopComponent from "./components/PopComponent.vue";
 import App from "./App.vue";
 
 const app = createApp(App);
@@ -34,6 +35,7 @@ app.component("homeview-component", HomeViewComponent);
 app.component("baseview-component", BaseView);
 app.component("grid-component", GridComponent);
 app.component("techview-component", TechView);
+// app.component("pop-component", PopComponent);
 
 app.use(Particles);
 app.use(router);

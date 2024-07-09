@@ -19,7 +19,8 @@
           <button
             class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150"
           >
-            <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/">
+            <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/" 
+               target="_blank">
               <img
                 src="../assets/linkedin.svg"
                 alt="LinkedIn"
@@ -30,7 +31,8 @@
           <button
             class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150"
           >
-            <a href="https://github.com/tihynihy">
+            <a href="https://github.com/tihynihy" 
+               target="_blank">
               <img src="../assets/github.svg" alt="GitHub" class="h-10 w-10" />
             </a>
           </button>
@@ -75,10 +77,13 @@
     >
       <!-- Right side div for image -->
       <div class="relative">
+        <!-- <div
+          class="absolute w-80 h-80 backdrop-blur-sm bg-white/20 p-2 rounded-2xl"
+        ></div> -->
         <img
           src="https://media.licdn.com/dms/image/D4E03AQFsu1RMu6vxCQ/profile-displayphoto-shrink_800_800/0/1720007099314?e=1726099200&v=beta&t=3pUNFe_beyhhhfClPyT2xFVMeOGFPNgBUc68fQOmA0Y"
           alt="profile image"
-          class="h-80 w-80 object-cover rounded-2xl relative hidden md:block"
+          class="h-100 w-80 object-cover rounded-2xl relative hidden md:block"
         />
       </div>
     </div>
