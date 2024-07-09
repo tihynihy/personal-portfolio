@@ -20,7 +20,7 @@
         <div class="flex space-x-4 py-2">
           <!-- Icon links -->
           <button
-            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150"
+            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl py-2 transition ease-in-out delay-150"
           >
             <a href="https://www.linkedin.com/in/nihad-jusovi%C4%87-16788a226/" 
                target="_blank">
@@ -32,7 +32,7 @@
             </a>
           </button>
           <button
-            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150"
+            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl py-2 transition ease-in-out delay-150"
           >
             <a href="https://github.com/tihynihy" 
                target="_blank">
@@ -40,7 +40,7 @@
             </a>
           </button>
           <button
-            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl px-4 py-2 transition ease-in-out delay-150"
+            class="hover:-translate-y-1 text-white hover:text-white hover:scale-110 duration-300 rounded-3xl py-2 transition ease-in-out delay-150"
           >
             <a href="mailto:nihad.jusovich@gmail.com">
               <img src="../assets/mail.svg" alt="Email" class="h-10 w-10" />
