@@ -7,14 +7,14 @@
       :options="{
         background: {
           color: {
-            value: '#000000',
+            value: 'transparent',
           },
         },
         fullScreen: {
           enable: true,
           zIndex: -1,
         },
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
@@ -23,7 +23,7 @@
             },
             onHover: {
               enable: true,
-              mode: 'grab',
+              mode: 'repulse',
             },
             resize: true,
           },
@@ -32,10 +32,10 @@
               distance: 400,
               duration: 2,
               opacity: 0.8,
-              size: 80,
+              size: 40,
             },
             push: {
-              quantity: 4,
+              quantity: 2,
             },
             repulse: {
               distance: 200,
@@ -45,24 +45,24 @@
         },
         particles: {
           color: {
-            value: '#ffffff',
+            value: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'],
           },
           links: {
-            color: '#ffffff',
+            color: '#667eea',
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.3,
             width: 1,
           },
           collisions: {
-            enable: false,
+            enable: true,
           },
           move: {
             direction: 'none',
             enable: true,
             outMode: 'bounce',
-            random: true,
-            speed: 2,
+            random: false,
+            speed: 0.5,
             straight: false,
           },
           number: {
@@ -70,17 +70,27 @@
               enable: true,
               area: 800,
             },
-            value: 10,
+            value: 30,
           },
           opacity: {
             value: 0.5,
+            animation: {
+              enable: true,
+              speed: 1,
+              minimumValue: 0.1,
+            },
           },
           shape: {
-            type: 'square',
+            type: 'circle',
           },
           size: {
             random: true,
-            value: 5,
+            value: 3,
+            animation: {
+              enable: true,
+              speed: 2,
+              minimumValue: 0.1,
+            },
           },
         },
         detectRetina: true,
